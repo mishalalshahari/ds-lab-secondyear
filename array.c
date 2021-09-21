@@ -10,7 +10,6 @@ int main(void) {
 	for(i=0;i<5;i++){
 	    scanf("%d",&arr[i]);
 	}
-	traverse(arr,5);
 	printf("\nEnter the position and value to insert:");
 	scanf("%d%d",&a,&b);
 	insert(arr,a,b);
