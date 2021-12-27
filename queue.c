@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
  
-#define MAX 50
+#define MAX 5
  
 void insert();
 void delete();
@@ -10,6 +10,7 @@ void traverse();
 int queue_array[MAX];
 int rear = - 1;
 int front = - 1;
+
 void main()
 {
     int choice;
